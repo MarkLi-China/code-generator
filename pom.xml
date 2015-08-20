@@ -12,7 +12,7 @@
     <mybatis.generator.configurationFile>target/mybatisGenCfg.xml</mybatis.generator.configurationFile>
   </properties>
 
-  <repositories>
+  <!--<repositories>
     <repository>
       <id>releases</id>
       <name>DHF Central Code Repository</name>
@@ -40,7 +40,7 @@
       <name>Internal Snapshots</name>
       <url>http://192.168.0.11:8081/nexus/content/repositories/com.dhf.repositories.snapshots/</url>
     </snapshotRepository>
-  </distributionManagement>
+  </distributionManagement>-->
 
   <dependencies>
     <dependency>
