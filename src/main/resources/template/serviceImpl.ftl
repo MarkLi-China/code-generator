@@ -19,8 +19,6 @@ import ${cfg.base.mapperModel}.${table.tableMeta.entityName};
 
 /**
 * ${table.tableMeta.entityName}Service.java
-* @autor xiongfang
-* @team kuaidigroup.zhuanche.boss
 * @version 1.0.0
 */
 @Service("${table.tableMeta.referenceName}")

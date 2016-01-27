@@ -23,8 +23,6 @@ import com.dhf.boss.param.PageBean;
 
 /**
 * ${table.tableMeta.entityName}Controller.java
-* @autor xiongfang
-* @team kuaidigroup.zhuanche.boss
 * @version 1.0.0
 */
 @Controller

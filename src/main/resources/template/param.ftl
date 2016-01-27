@@ -2,8 +2,6 @@ package com.dhf.boss.param;
 
 /**
 * ${table.tableMeta.entityName}Param.java
-* @autor xiongfang
-* @team kuaidigroup.zhuanche.boss
 * @version 1.0.0
 */
 public class ${table.tableMeta.entityName}Param extends BaseParam {

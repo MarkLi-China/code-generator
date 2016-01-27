@@ -12,16 +12,16 @@
     <mybatis.generator.configurationFile>target/mybatisGenCfg.xml</mybatis.generator.configurationFile>
   </properties>
 
-  <!--<repositories>
+  <repositories>
     <repository>
       <id>releases</id>
-      <name>DHF Central Code Repository</name>
-      <url>http://192.168.0.11:8081/nexus/content/groups/public/</url>
+      <name>Central Code Repository</name>
+      <url>http://m2.internal.weyao.com/nexus/content/groups/public/</url>
     </repository>
     <repository>
       <id>snapshots</id>
-      <name>DHF snapshots Code Repository</name>
-      <url>http://192.168.0.11:8081/nexus/content/groups/public-snapshots/</url>
+      <name>snapshots Code Repository</name>
+      <url>http://m2.internal.weyao.com/nexus/content/groups/public-snapshots/</url>
       <snapshots>
         <enabled>true</enabled>
         <updatePolicy>always</updatePolicy>
@@ -33,14 +33,14 @@
   <distributionManagement>
     <repository>
       <id>releases</id>
-      <url>http://192.168.0.11:8081/nexus/content/repositories/com.dhf.repository/</url>
+      <url>http://m2.internal.weyao.com/nexus/content/repositories/com.weyao.repository/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>Internal Snapshots</name>
-      <url>http://192.168.0.11:8081/nexus/content/repositories/com.dhf.repositories.snapshots/</url>
+      <url>http://m2.internal.weyao.com/nexus/content/repositories/com.weyao.repositories.snapshots/</url>
     </snapshotRepository>
-  </distributionManagement>-->
+  </distributionManagement>
 
   <dependencies>
     <dependency>

@@ -1,8 +1,8 @@
 @echo off
-SetLocal EnableDelayedExpansion   
-echo ËØ∑ËæìÂÖ•ÈÖçÁΩÆÊñá‰ª∂ÈÄâÈ°πÔºö
-set /p env=>nul 
-echo ÈÖçÁΩÆÈÄâÈ°πÔºö%env%
+SetLocal EnableDelayedExpansion
+echo «Î ‰»Î≈‰÷√Œƒº˛—°œÓ£∫
+set/p env=>nul
+echo ≈‰÷√—°œÓ£∫%env%
 cd %~dp0
 
 SET CLASSPATH=.
