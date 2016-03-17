@@ -1,2 +1,4 @@
 *.iml
 target/*
+genConfig-weyao.xml
+genConfig-weyao_srv.xml
