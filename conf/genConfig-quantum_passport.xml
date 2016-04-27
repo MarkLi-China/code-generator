@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+  <jdbc driver="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://10.7.128.233:3306/passport?generateSimpleParameterMetadata=true"
+        user="q_inner_rw01" password="sdfS23Dyju">
+  </jdbc>
+
+  <baseDir>./target</baseDir>
+
+  <base>
+    <mapperExt>com.weyao.passport.dao.base.ext</mapperExt>
+    <mapperXmlExt>xml/com.weyao.passport.dao.base.ext</mapperXmlExt>
+    <mybatis>
+      <mapper>com.weyao.passport.dao.base.gen</mapper>
+      <mapperXml>xml/com.weyao.passport.dao.base.gen</mapperXml>
+      <mapperModel>com.weyao.passport.dao.base.gen.entity</mapperModel>
+    </mybatis>
+  </base>
+
+  <tables mapperExt="true" service="false" controller="false">
+  
+    <table name="t_passport"/>
+
+  </tables>
+</configuration>

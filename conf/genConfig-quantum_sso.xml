@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+  <jdbc driver="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://10.7.128.233:3306/sso?generateSimpleParameterMetadata=true"
+        user="q_inner_rw01" password="sdfS23Dyju">
+  </jdbc>
+
+  <baseDir>./target</baseDir>
+
+  <base>
+    <mapperExt>com.weyao.sso.dao.base.ext</mapperExt>
+    <mapperXmlExt>xml/com.weyao.sso.dao.base.ext</mapperXmlExt>
+    <mybatis>
+      <mapper>com.weyao.sso.dao.base.gen</mapper>
+      <mapperXml>xml/com.weyao.sso.dao.base.gen</mapperXml>
+      <mapperModel>com.weyao.sso.dao.base.gen.entity</mapperModel>
+    </mybatis>
+  </base>
+
+  <tables mapperExt="true" service="false" controller="false">
+  
+    <table name="t_operator"/>
+    <table name="t_operator_log"/>
+    <table name="t_operator_system"/>
+    <table name="t_system"/>
+    <table name="t_sso_log"/>
+
+  </tables>
+</configuration>

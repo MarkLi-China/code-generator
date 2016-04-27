@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+  <jdbc driver="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://10.7.128.233:3306/node?generateSimpleParameterMetadata=true"
+        user="q_inner_rw01" password="sdfS23Dyju">
+  </jdbc>
+
+  <baseDir>./target</baseDir>
+
+  <base>
+    <mapperExt>com.weyao.node.dao.base.ext</mapperExt>
+    <mapperXmlExt>xml/com.weyao.node.dao.base.ext</mapperXmlExt>
+    <mybatis>
+      <mapper>com.weyao.node.dao.base.gen</mapper>
+      <mapperXml>xml/com.weyao.node.dao.base.gen</mapperXml>
+      <mapperModel>com.weyao.node.dao.base.gen.entity</mapperModel>
+    </mybatis>
+  </base>
+
+  <tables mapperExt="true" service="false" controller="false">
+  
+    <table name="t_group"/>
+    <table name="t_group_node"/>
+    <table name="t_node"/>
+    <table name="t_operator_group"/>
+    <table name="t_operator_node"/>
+
+  </tables>
+</configuration>

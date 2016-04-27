@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+  <jdbc driver="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://10.7.128.233:3306/customer?generateSimpleParameterMetadata=true"
+        user="q_inner_rw01" password="sdfS23Dyju">
+  </jdbc>
+
+  <baseDir>./target</baseDir>
+
+  <base>
+    <mapperExt>com.weyao.crm.dao.customer.ext</mapperExt>
+    <mapperXmlExt>xml/com.weyao.crm.dao.customer.ext</mapperXmlExt>
+    <mybatis>
+      <mapper>com.weyao.crm.dao.customer.gen</mapper>
+      <mapperXml>xml/com.weyao.crm.dao.customer.gen</mapperXml>
+      <mapperModel>com.weyao.crm.dao.customer.gen.entity</mapperModel>
+    </mybatis>
+  </base>
+
+  <tables mapperExt="true" service="false" controller="false">
+  
+    <table name="t_appointment_event"/>
+    <table name="t_car"/>
+    <table name="t_compute_detail"/>
+    <table name="t_custoemr_express_info"/>
+    <table name="t_customer"/>
+    <table name="t_customer_belong"/>
+    <table name="t_customer_thirdparty_info"/>
+    <table name="t_customercar_update_detail"/>
+    <table name="t_insure_person"/>
+    <table name="t_track_log"/>
+
+  </tables>
+</configuration>
